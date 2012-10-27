@@ -8,9 +8,9 @@
  */
 
 // Get the user data from the form
-//$item_cost = $_POST("list_price");
+$item_cost = $_POST["list_price"];
 
-$item_cost = 100;
+//$item_cost = 100;
 
 // Calculate the discount
 if ($item_cost < 11) {
@@ -20,7 +20,6 @@ else {
 	$discount_percent = 20;
 }
 
-$item_cost = 100; // Debug
 $discount_amount = $item_cost * $discount_percent * 0.01;
 $discount_price = $item_cost - $discount_amount;
 
