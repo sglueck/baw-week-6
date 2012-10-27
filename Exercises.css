@@ -1,0 +1,50 @@
+@CHARSET "UTF-8";
+	body {
+		font-family: Verdana, Arial, Helvetica, sans-serif;
+		}	
+
+/* Layout */
+	form {
+		width: 450px;
+		margin: 0 auto;
+		padding: 15px;
+	}
+
+	label {
+		width: 10em;
+		padding-right: 1em;
+		float: left;
+	}
+
+	#data input {
+		float: left;
+		width: 15em;
+		margin-bottom: .5em;
+	}
+	#buttons input {
+		float: left;
+		margin-bottom: .5em;
+	}
+	br {
+		clear: left;
+	}
+	#mainContent {
+		text-align: center;
+		margin-bottom: .5em;
+	}
+			
+/* Presentation */
+	form {
+		border: 2px solid navy;
+	}
+	#mainContent {
+		color: navy;
+	}
+	
+	#dataContent {
+		border: 2px solid navy;
+		width: 450px;
+		padding: 15px;
+		margin-bottom: .5em;
+		color: navy;
+	}
